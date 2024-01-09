@@ -13,8 +13,8 @@ import cors from "cors";
 // import apiv2Router from './apiv2/indexV2.mjs'
 
 import authRouter from "./apiv1/routes/auth.mjs";
-import postRouter from "./apiv1/routes/post.mjs";
-import chatRouter from "./apiv1/routes/chat.mjs";
+import studentRouter from "./apiv1/routes/student.mjs";
+
 import unAuthProfileRouter from './apiv1/unAuthRoutes/frontpost.mjs'
 import { decode } from "punycode";
 // import commentRouter from './routes/comment.mjs'
@@ -73,8 +73,8 @@ app.use("/api/v1",(req, res, next) => {
   }
 });
 
-app.use("/api/v1", postRouter);
-app.use("/api/v1", chatRouter);
+app.use("/api/v1", studentRouter);
+
 
 
 // app.get("/", (req, res, next) => {

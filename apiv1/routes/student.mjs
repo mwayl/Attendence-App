@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid'
 import express from 'express';
-import {client} from './../../mongodb.mjs' 
+import {client} from '../../mongodb.mjs' 
 import { ObjectId } from 'mongodb'
 import OpenAI from "openai";
 import admin from 'firebase-admin'
