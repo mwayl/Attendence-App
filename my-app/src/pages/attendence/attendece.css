@@ -1,0 +1,52 @@
+*{
+    padding :0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-between;
+}
+.additional-main-heading{
+    width: 260px;
+}
+.additional-styling-heading{
+    width: 900px;
+    background-color: aquamarine;
+}
+.additional-student{
+    margin-top: 10px;
+}
+.additional-value-name-div{
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 50px; 
+    
+}
+.additional-heading-name-value{
+    width: 100%;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+.additional-heading-value{
+    margin-left: 10px;
+    background-color: white;
+   
+}
+.heading-value-attendence{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #45a049; */
+    width: 98%;
+    height: 55px;
+    margin-top: 10px;
+}
+#studentEmail-attendence{
+    margin-left: -90px;
+    margin-right: 40px;
+}
+#checkout-attendence{
+    margin-right:-30px;
+
+}

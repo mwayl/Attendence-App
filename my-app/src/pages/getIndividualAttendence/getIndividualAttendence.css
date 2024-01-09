@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #E7E7E7;
+    min-height: 100vh;
+    max-height: 100%;
+    margin-top: -30px;
+}
+/* .additional-styling-heading{
+    margin-top: -10px;
+    background-color: #542727;
+    width: 500px;
+} */
+
+.additional-styling-main-heading{
+    /* margin-top: 25px;  */
+    width: 258px;
+    position: absolute;
+}
+.additional-styling-value-name-div{
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 180px; 
+    position: absolute;
+    margin-left: 40px;
+}
+.additional-styling-heading-name-value{
+    width: 100%;
+    /* margin-top: -10px; */
+    /* background-color: aqua; */
+    margin-left: 0px;
+    position: absolute;
+}
+.name1{
+    margin-right: -32px;
+}
+.course-name1{
+    margin-right: -0px;
+}
+.email1{
+    margin-right: -0px;
+}
+.check-in{
+    margin-right: -5px;
+}
+.check-out{
+    margin-right:-130px;
+}
+.additional-styling-value-div{
+    margin-left: 70px;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 220px;
+    
+}
+/* #additional-styling-studentName{
+    margin-left:20px;
+} */
+.additional-heading-value1{
+    margin-left: -30px;
+    background-color: white;
+    width: 94%;
+    
+}
+
+#checkin{
+    margin-left: -80px;
+    }
+#studentEmail2{
+    margin-left: -150px;
+    margin-right: 50px;
+}

@@ -1,0 +1,136 @@
+*{
+    padding :0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .Main{
+    min-height: 20vh;
+    background-color: aqua;
+} */
+.header-login{
+    max-width: 100%;
+    min-height: 60px;
+    background-color: #7749F8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;}
+.main-heading1{
+   
+    height: 45px;
+    font-weight: 700;
+    color: hsl(210, 7%, 16%);
+    font-size: 2rem;
+    width: 618px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #a43939; */
+    margin-left: 140px;
+    margin-top: 10px;
+    /* font-size: 25px; */
+    /* margin-left: 95px; */
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.log-in{
+    width: 80px;
+    min-height: 20px;
+    /* margin-left: 600px; */
+    border: none;
+    background-color: #7749F8;
+    font-weight: 400;
+    color: white;
+    
+
+}
+.log-in a{
+    text-decoration:none !important; 
+    color: white;
+    font-weight: 500;
+}
+.inner-header-login{
+width: 100%;
+min-height: 110px;
+background-color: #ffffff;
+border-bottom: 0.2px dashed #cccccc;
+display: flex;
+align-items: center;
+
+}
+.heading-of-Page{
+min-width: 10rem;
+font-size: 41px;
+font-family: Arial, Helvetica, sans-serif;
+/* background-color: rgb(156, 43, 43); */
+margin-left: 145px;
+/* margin-top: 19px; */
+position: absolute;
+color: #3d4247;
+}
+
+
+.Form-div-login1{
+   
+   padding: 20px;
+   height: auto;
+    width: 30%;
+    min-height: 360px;
+
+    background-color:rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 490px; */
+    
+    align-items: center;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4)
+}
+
+.Form-div-login1 button {
+    width: 100%;
+   
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+
+  }
+
+.loginEmail1,  .loginPassword1{
+    width: 100%;
+    height: 36px;
+    border-radius: 7px;
+    border-color:rgb(150, 42, 42) ;
+    margin-top:10px;
+    border: 1px solid #C6CCD2;
+    border-style: groove;
+    color: #363738;
+    padding-left: 10px;
+}
+.loginEmail1{
+     margin-top: 30px;
+}
+
+.login1{
+    width: 100%;
+
+    border-radius: 5px;
+    border-style: none ;
+    /* background-color: #49f852; */
+    color: rgb(107, 38, 38);
+    font-weight: 600;
+
+    padding: 12px 40px;
+}
+
+
+.hidden{
+    display: none;
+}

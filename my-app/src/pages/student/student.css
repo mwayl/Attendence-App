@@ -1,0 +1,192 @@
+.addStudentDiv1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    height: 100vh;
+    max-width: 450px;
+    width: 100%;
+    background-color: #ffffff;
+    /* margin-left: 600px; */
+    right: 0%;
+  }
+.Form-div-attendence{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 100vh;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+#dynamicPic1{
+    margin-left: 75px !important ;
+    margin-top: 40px;
+    width: 100px;
+    
+
+}
+.bi-bi-camera-fill1{
+    margin-left:270px;
+    margin-bottom:-250px;
+    position: relative;
+    /* background-color: #1b1d21; */
+}
+
+#select_image{
+    margin-left: 10px;
+    margin-top: -30px;
+    position: absolute;
+}
+.video-div{
+    /* background-color: aqua; */
+    width: 100% !important;
+    max-width: 500px !important;
+}
+.video{
+    margin-left: -5px;
+    margin-top: -60px;
+    
+}
+.capture-picture{
+    padding:5px 80px 5px 80px;
+    background-color: #5C93FA;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    width: 94%;
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: -50px;
+    margin-left: -5px;
+    position: absolute;
+
+    
+}
+.result{
+    background-color: #5C93FA;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+/* .mainCheckOutDiv{
+    background-color: #5C93FA;
+    width: 400px;
+    height: 30vh;
+} */
+.mainCheckOutDiv {
+    position: absolute;
+    /* display: inline-block; */
+    cursor: pointer;
+    background-color: #5C93FA;
+    width: 400px;
+    height: 30vh;
+    margin-left: 35%;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80vh;
+
+  }
+
+  /* The actual popup (appears on top) */
+  .mainCheckOutDiv .popupContent {
+    
+    /* width: 160px;
+    background-color: #555; */
+    color: #fff;
+    text-align: center;
+    margin-top: -90px;
+    position: absolute;
+    z-index: 2;
+
+  }
+  
+  .popupCLoseButton{
+    padding: 4px 40px 4px 40px;
+    margin-top: 40px;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    background-color: #fff;
+    
+  }
+ 
+
+  /* -----------------------------------user home page styling------------------------------- */
+
+ .profileInformation{
+    background-color: #5C93FA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    height: 12vh;   
+ } 
+ .studentName{
+    font-weight: bold;
+    font-size: 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+ }
+ 
+ .otherProfileInformation{
+    height: 62vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10px;
+ }
+ .otherProfileInformation div{
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #1b1919;
+   
+ }
+ .information-heading{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #4373cd;
+    /* color: #464545; */
+ }
+ .otherProfileInformation button{
+    margin-left: 30px;
+    padding: 6px 20px 6px 20px;
+    border-radius: 3px;
+    background-color: #5C93FA;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid transparent;
+    cursor: pointer;
+ }
+
+ .lower-information{
+    width: 95.3%;
+    height: 110px;
+    /* background-color: #d8fa5c; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 20px;
+ }
+ .lower-information>button{
+    
+    cursor: pointer;
+    padding: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #5C93FA;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+ }

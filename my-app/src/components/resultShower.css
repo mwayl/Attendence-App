@@ -1,0 +1,19 @@
+.passwordChecker{
+    min-width:65vh;
+    height: 30vh;
+    background-color: antiquewhite;
+    border-radius:15px ;
+    margin: 0 auto;
+    margin-top: -340px;
+    /* margin-left: 33.5%; */
+   
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}

@@ -1,0 +1,306 @@
+*{
+    padding :0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side{
+    width: 80%;
+    min-height: 100vh;
+    max-height: 100%;
+    background-color: #F8F8F8;
+    margin-left: 20%;
+    
+}
+
+.heading-div{
+    width: 300px;
+    height: 70px;
+    background-color: blueviolet;
+    margin-top: 60px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+.pic-logo{
+    width: 50px;
+    height: 50px;
+    background-color: #131212;
+    border-radius: 100px;
+    
+}
+.add-student-button{
+ 
+    margin-left: 61%;
+    margin-top: -50px;
+    position:absolute;
+    padding:20px 50px 20px 50px; ;
+   font-size: 1rem;
+   font-weight: bold;
+   background-color: #5C93FA;
+   color:white;
+   border: 0px solid transparent;
+   border-radius: 8px;
+   cursor: pointer;
+   
+}
+
+
+
+
+
+/* add student form */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Adjust the z-index value as needed */
+  }
+  
+  .updatePasswordPopup {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    z-index: 1001; /* Make sure the popup is on top of the overlay */
+    
+  }
+.logo-add-student{
+    margin-top: -350px;
+    margin-left: 80px;
+}
+.Add-student{
+    margin-left: 00px;
+}
+  .addStudentDiv {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    height: 100vh;
+    max-width: 550px;
+    width: 100%;
+    background-color: #45a049;
+    /* margin-left: 600px; */
+    right: 0%;
+  }
+  
+  .addStudentDiv  .Form-div-addstudent {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 100vh;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /* margin-left:-230px ; */
+    /* margin-top: 220px; */
+  }
+#dynamicPic{
+    margin-left: 180px;
+    margin-top: 80px;
+}
+.heading-student{
+    margin-left: 40px;
+    font-size: 1.7rem;
+   font-weight: 500;
+}
+  .input-fields{
+   
+    background-color: #eaeaea;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  .input-fields input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  /* .login-cancelbutton{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  gap: 11px;
+  } */
+ .add{
+    width: 100px;
+    padding: 10px;
+    height: auto !important;
+    border-radius: 5px;
+    outline: none;
+    border:0px solid transparent;
+    background-color: #5C93FA;
+    margin-left: 180px;
+    margin-top: 5px;
+    position: absolute;
+    cursor: pointer;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  #select_imag {
+  
+    position: absolute;
+    cursor: pointer;
+    bottom: 60%;
+    left: 45%;
+  }
+  #select_imag svg{
+    color: rgb(0, 0, 0) ;
+  }
+  /* .login-cancelbutton .cancel-button{
+    margin: 0;
+    padding: 10px;
+  } */
+  .Form-div-login button {
+    width: 100%;
+   
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .Form-div-login button:hover {
+    background-color: #45a049;
+  }
+
+  .student{
+    width: 90%;
+    min-height:40vh ;
+    /* background-color: beige; */
+    margin-top: 100px;
+    margin-left: 45px;
+  }
+  .value-name-div{
+    width: 100%;
+    height: 40px;
+    background-color: #5C93FA;
+    margin-top: -55px;
+
+  }
+  .heading-name-value{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #45a049; */
+    width: 88%;
+    height: 40px;
+  }
+  .heading-name-value li{
+     font-size: 1rem;
+     /* margin-top: 10px; */
+     margin-left: -90px;
+     color: white;
+
+     padding: 10px;
+  }
+  .add-property-heading-name-value{
+    margin-left: 30px;
+  }
+  /* .value-div{
+    width: 113.7%;
+    height: 55px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-radius: 3px;
+
+  } */
+  .heading-value{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #45a049; */
+    width: 88%;
+    height: 55px;
+  }
+#serialNumber{
+  width: 70px;
+  /* background-color: #bf1010; */
+  margin-left: px;
+}
+#profileImage{
+  width: 70px;
+  margin-left: 68px;
+  /* background-color: #5C93FA; */
+}
+#studentName{
+  width: 220px;
+  /* background-color: #bf1010; */
+  margin-left: 19px;
+}
+#course{  width: 220px;
+  /* background-color: #9ec761; */
+  margin-left: -69px;}
+#studentEmail{
+  width: 280px;
+  /* background-color: #bf8d10; */
+  margin-left: -69px;
+}
+  .pic{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    margin-top: -7px;
+
+  }
+.logout{
+    margin-top: 35vh;
+    margin-left: 70px;
+    position:absolute;
+    cursor: pointer;
+    padding:20px 50px 20px 50px; ;
+   font-size: 1rem;
+   font-weight: bold;
+   background-color: #5C93FA;
+   color:white;
+   border: 0px solid transparent;
+   border-radius: 5px;
+}
+.main-heading{
+    margin-top: 85px;
+    height: 45px;
+    /* font-weight: 700;
+    color: black; */
+    /* font-size: 2.2rem; */
+    margin-left: 50px;
+    width: 218px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #a43939; */
+
+}
+.heading{
+   font-weight: 500;
+    color: black;
+    font-size: 2.1rem;
+}
+.profile-edit{
+  width: 26vh;
+  height: 26vh;
+  border-radius: 120px;
+  margin-left: 170px;
+  margin-top:15px ;
+}

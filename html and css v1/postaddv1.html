@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+
+</head>
+<style>
+
+
+    @font-face {
+    font-family: "headings-font";
+    src: url(Pangolin-Regular.ttf);
+}
+@font-face {
+    font-family: "post-heading";
+    src: url(MerriweatherSans-Italic-VariableFont_wght.ttf);
+}
+@media screen and (max-width: 1500px){
+body,html{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+ 
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #D4CC8B; */
+}
+.heading{
+    width: 24%;
+    /* background-color: aqua; */
+    font-size: 44px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+   font-weight: bold;
+    margin-top: 20px;
+    margin-left: 270px;
+}
+.posting{
+    height: 723px;
+    width: 30%;
+    background-color: aquamarine;
+    margin-left: 778px;
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 0;
+}
+.heading-post{
+      font-size: 36px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin-top: 20px;
+
+}
+
+.form_fill{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: -0px;
+
+}
+label{
+    font-size: 20px;
+}
+#headingOfPost{
+    width: 300px;
+    height: 20px;
+
+}
+.submit{
+    margin-top: 50px;
+}
+
+.post_lookup{
+    height: 700px;
+    width: 775px;
+    /* background-color: rgb(6, 8, 8); */
+    margin-top: 40px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    
+
+}
+.post{
+    height: 200px;
+    width: 350px;
+    /* background-color: bisque; */
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    word-wrap: break-word;
+    border: 2px solid rgb(128, 128, 128);
+    
+}
+.post_heading{
+    height: 45px;
+    width: 90%;
+    font-size: 34px;
+    margin-left: 20px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    /* background-color: burlywood; */
+}
+.post_description{
+    height: 100px;
+    width: 320px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: -40px;
+    margin-top: -20px;
+    border-bottom:1px solid rgb(204, 204, 204);
+    /* background-color: blueviolet; */
+}
+ .edit{
+    margin-left: 20px;
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+
+} 
+.delete{
+    margin-left: 160px;
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+    
+    
+}
+
+.result{
+    height: 180px;
+    width: 300px;
+    position: fixed;
+    background-color: rgb(126, 98, 62);
+    margin-left: 230px;
+    border-radius: 10px;
+    border: 3px double black;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+p{
+    margin-top: 50px;
+}
+.ok-button{
+    width: 70px;
+   margin-bottom: 35px;
+}
+/* #results{
+    height: 180px;
+    width: 300px;
+    /* position: fixed; */
+    /* background-color: rgb(126, 98, 62); */
+    /* margin-left: 30px; */
+    /* border-radius: 10px;
+    border: 3px double black;
+    /* margin-top: 10px; */
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   visibility: visible; 
+} */
+.result{
+    height: 180px;
+    width: 300px;
+    /* position: fixed; */
+    background-color: rgb(126, 98, 62);
+    margin-left: 230px; 
+    border-radius: 10px;
+    border: 3px double black;
+     margin-top: -550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   visibility: hidden;
+}
+}
+@media screen and (max-width: 600px){
+      
+    body,html{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+ 
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #D4CC8B; */
+}
+.heading{
+    width: 40%;
+    background-color: rgb(8, 44, 44);
+    font-size: 33px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+   font-weight: bold;
+    margin-top: 20px;
+    color: aqua;
+    /* margin-left: 270px; */
+}
+
+.posting{
+    height: 723px;
+    width: 70%;
+    background-color: aquamarine;
+    margin-left: 778px;
+    margin-top: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    
+}
+.heading-post{
+      font-size: 26px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin-top: 20px;
+
+}
+
+.form_fill{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: -0px;
+
+}
+label{
+    font-size: 20px;
+}
+#headingOfPost{
+    width: 90%px;
+    height: 20px;
+
+}
+.submit{
+    margin-top: 50px;
+}
+.nav-bar-open{
+    width: 4%;
+    height: 30px;
+    background-color: rgb(126, 98, 62);
+    margin-top: -580px;
+    margin-left: 40px;
+    position: absolute;
+}
+.nav-bar-cancel{
+    width: 4%;
+    height: 30px;
+    background-color: rgb(126, 98, 62);
+    margin-top: -510px;
+    margin-left: 0px;
+}
+.post_lookup{
+    height: 500px;
+    width: 79%;
+    /* background-color: rgb(6, 8, 8); */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+
+
+
+}
+
+/* .dynamic-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c02121;
+    border: 2px solid #555;
+    padding: 20px;
+    font-size: 18px;
+    /* z-index: 9999; */
+
+</style>
+<!-- onload="getAllPosts()" -->
+<body  onload="getAllPosts()">
+    <div class="heading">Blog Posts</div>
+
+    <div class="posting">
+        <div class="heading-post">Add content<i class="bi bi-star"></i></div>
+
+
+        <form class="form_fill" onsubmit="createPost() ; return false">
+            <label>Name *</label>
+            <input type="text" name="blog" placeholder="blog" id="headingOfPost">
+              
+        <label>Description</label>
+        <textarea name="Description" id="discriptionOfPost" rows="20" placeholder="Enter Description of Blog"></textarea>
+        <!-- <button class="submit" onclick="submit()">submit</button> -->
+        <button type="submit" class="submit" value="submit">Submit</button>
+        <button class="nav-bar-cancel"></button>
+        </form>
+
+       
+    </div>
+    <div class="post_lookup" id="postDisplayGrid">
+            
+                 
+  
+    </div>
+  
+   <div class="result">
+    <p id="result_show">kk</p>
+    <button  class="ok-button">Ok</button>
+   </div>
+<button class="nav-bar-open"></button>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.js"></script>
+ <script type="module" src="app.mjs"></script>
+   <script type="module">
+
+
+       window.createPost= function(){
+       let postTitle=document.querySelector("#headingOfPost").value;
+       let postText=document.querySelector("#discriptionOfPost").value;
+
+       axios.post(`/api/v1/post` ,{
+        title:postTitle,
+        text:postText
+       })
+       .then(function (response) {
+                    console.log(response.data);
+                    let element = document.querySelector(".result")
+               
+              element.style.visibility="visible"
+               document.querySelector("#result_show").innerHTML=response.data
+               setTimeout(()=>{
+                document.querySelector(".result").style.visibility="hidden"
+               },3000)
+                 getAllPosts()
+                })
+                .catch(function(error){
+        console.log(error.data)
+        document.querySelector(".result").style.visibility="visible"
+        document.querySelector("#result_show").innerHTML="error in post submission"
+        setTimeout(()=>{
+                document.querySelector(".result").style.visibility="hidden"
+               },3000)
+       })
+            }
+ 
+      
+    
+       //getting post from server
+     window.getAllPosts=function(){
+        axios.get('/api/v1/post' )
+        .then((response)=>{
+            console.log(response.data)
+            // let display=document.getElementById("postDisplayGrid")
+            let display =``
+            response.data.map((post)=>{
+            display += `<div class="post">
+            <h2 class="post_heading">${post.title}</h2>
+            <p class="post_description">${post.text}</p>
+                 <input type="button" class="edit" value="edit">
+                 <input type="button" class="delete" value="delete">
+          
+                </div>`
+        })
+        document.getElementById("postDisplayGrid").innerHTML=display
+        
+            })
+        
+        .catch((error)=>{
+            console.log(error.data)
+        })
+        
+      }
+
+    </script> 
+
+
+
+</body>
+</html>

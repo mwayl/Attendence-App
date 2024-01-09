@@ -1,0 +1,132 @@
+/* *{
+    padding :0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    min-height: 50px;
+    background-color: #7749F8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.main-heading{
+   
+    /* background-color: TRN;
+
+    margin-left: 150px; 
+    /* margin-top: 30px;
+    font-size: 25px;
+    /* margin-left:95px; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.log-in{
+    width: 80px;
+    height: 20px;
+    /* margin-left: 600px; 
+    border: none;
+    background-color: #7749F8;
+    font-weight: 400;
+    color: white;
+    
+
+}
+.log-in a{
+    text-decoration:none !important; 
+    color: white;
+    font-weight: 500;
+}
+.inner-header{
+width: 100%;
+min-height: 110px;
+background-color: #ffffff;
+border-bottom: 0.2px dashed #cccccc;
+display: flex;
+align-items: center;
+
+}
+.heading-of-Page{
+min-width: 10rem;
+font-size: 41px;
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(255, 255, 255);
+margin-left: 145px;
+/* margin-top: 19px; 
+position: absolute;
+color: #3d4247;
+}
+
+
+/* css of body 
+.Form-div{
+    min-height: 430px;
+    padding: 20px;
+    width: 30%;
+    background-color:rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 490px; 
+    
+    align-items: center;
+    border-radius: 7px;
+    z-index: 1;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4)
+}
+
+.first-name ,.last-name ,.email ,.password, .password-checker{
+    width: 75%;
+    height: 36px;
+    border-radius: 7px;
+    border-color:rgb(240, 240, 240) ;
+    margin-top: 10px;
+    border: 1px solid #C6CCD2;
+    border-style: groove;
+    color: #363738;
+    padding-left: 10px;
+}
+.first-name{
+    margin-top: 20px !important;
+   
+}
+
+.signup{
+   width:76%;
+    border-radius: 5px;
+    border-style: none ;
+    background-color: #7749F8;
+    color: white;
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 12px 20px;
+
+}
+
+
+/* password error box 
+.passwordChecker{
+    width:60vh;
+    height: 30vh;
+    background-color: antiquewhite;
+    border-radius:15px ;
+    margin-top: -340px;
+    margin-left: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: red;
+}
+.hidden{
+    display: none;
+} */
